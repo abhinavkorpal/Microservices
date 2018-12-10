@@ -205,3 +205,4 @@ public class UserResource {
 
 ```
 
+![](https://github.com/abhinavkorpal/microservices/blob/master/images/users.png)
