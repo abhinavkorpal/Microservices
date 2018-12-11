@@ -99,3 +99,51 @@
 ```
 
 
+```json
+{
+    "timestamp": "2018-12-11T10:24:10.150+0000",
+    "status": 500,
+    "error": "Internal Server Error",
+    "message": "id-500",
+    "path": "/users/500"
+}
+```
+
+```json
+{
+    "timestamp": "2018-12-11T10:27:20.693+0000",
+    "status": 404,
+    "error": "Not Found",
+    "message": "id-500",
+    "path": "/users/500"
+}
+```
+
+### GET http://localhost:8080/users/500
+- Get request to a non existing resource. 
+- The response shows default error message structure auto configured by Spring Boot.
+
+```json
+{
+    "timestamp": "2018-12-11T10:27:20.693+0000",
+    "status": 404,
+    "error": "Not Found",
+    "message": "id-500",
+    "path": "/users/500"
+}
+```
+
+### GET http://localhost:8080/users/500
+- Get request to a non existing resource. 
+- The response shows a Customized Message Structure
+```json
+{
+    "timestamp": "2018-12-11T10:24:10.150+0000",
+    "status": 500,
+    "error": "Internal Server Error",
+    "message": "id-500",
+    "path": "/users/500"
+}
+```
+
+
