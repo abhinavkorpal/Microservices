@@ -1,14 +1,14 @@
 ### Basics of RESTful Services
- - Initializing a RESTful Services Project with Spring Boot
- - Understanding the RESTful Services we would create in this course
- - Creating a Hello World Service
- - Enhancing the Hello World Service to return a Bean
- - Quick Review of Spring Boot Auto Configuration and Dispatcher Servlet - What's happening in the background?
- - Enhancing the Hello World Service with a Path Variable
- - Creating User Bean and User Service
- - Implementing GET Methods for User Resource
- - Implementing POST Method to create User Resource
- - Enhancing POST Method to return correct HTTP Status Code and Location URI
+ - [Initializing a RESTful Services Project with Spring Boot](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/initializing_a_RESTful_Services_Project_with_Spring_Boot.md)
+ - [Understanding the RESTful Services we would create in this course](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Understanding_the_RESTful_Services.md)
+ - [Creating a Hello World Service](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Creating_a_Hello_World_Service.md)
+ - [Enhancing the Hello World Service to return a Bean](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Enhancing_the_Hello_World_Service_to_return_a_Bean.md)
+ - [Quick Review of Spring Boot Auto Configuration and Dispatcher Servlet - What's happening in the background?](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Spring_Boot_Auto_Configuration_and_Dispatcher_Servlet.md)
+ - [Enhancing the Hello World Service with a Path Variable](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Enhancing_the_Hello_World_Service_with_a_Path_Variable.md)
+ - [Creating User Bean and User Service](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Creating_User_Bean_and_User_Service.md)
+ - [Implementing GET Methods for User Resource](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Implementing_GET_Methods_for_User_Resource.md)
+ - [Implementing POST Method to create User Resource](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Enhancing_POST_Method_to_return_correct_HTTP_Status_Code_and_Location_URI.md)
+ - [Enhancing POST Method to return correct HTTP Status Code and Location URI](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Enhancing_POST_Method_to_return_correct_HTTP_Status_Code_and_Location_URI.md)
  - Implementing Exception Handling - 404 Resource Not Found
  - Implementing Generic Exception Handling for all Resources
  - Exercise : User Post Resource and Exception Handling
