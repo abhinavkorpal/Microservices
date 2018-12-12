@@ -1,50 +1,13 @@
-This step let's shift our attention to start creating the user resource.
+Start creating the user resource.
 
-We have to use a service.
-
-And let's start creating a user resource right now.
-
-So let's say control in your class I would want to call this user resource.
-
-This is a resource is a rest controller I will have the rest methods which are defined in his home address
-
-controller.
-
-Important in and over here.
-
-Let's start with creating a couple of mentored in this that created three of all users.
-
+This is a resource is a rest controller I will have the rest methods which are defined in his home address controller.
 The source we wanted to get the complete list of users and also we want to create to retrieve user and
 
 we will take ID as input.
 
-So we would want to create two simple methods which would give details of all the users and get details
+So we would want to create two simple methods which would give details of all the users and get details of a specific user.
 
-of a specific user.
-
-We all didn't even map it you are nice to them so they should be get less users to all users.
-
-It should be get flash users and one users should get you the slash.
-
-Let's pick that up.
-
-No I can create a couple of methods to do that right.
-
-Very simple public stuff of users because that's what we would need to sit back and call this retrieval
-
-you know input.
-
-And I can return back what can I written back.
-
-I need the user.
-
-So yes.
-
-So I need to do this so that I can get the data.
-
-So you use a service Yes and I would want to make this pay rate.
-
-Do the board actually use it.
+No I can create a couple of methods to do that right.Very simple public stuff of users because that's what we would need to sit back and call this retrieval
 
 So let's keep that user down so we service and this should be auto wired in thing what do the are the
 
