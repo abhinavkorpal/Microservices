@@ -27,6 +27,7 @@
   - http://localhost:8080/hello-world/path-variable/abhinav
   - http://localhost:8080/users/
   - http://localhost:8080/users/1
+  - http://localhost:8080/users/500
   
   
 ## Example Requests
