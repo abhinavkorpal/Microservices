@@ -10,7 +10,7 @@
  - [Implementing POST Method to create User Resource](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Enhancing_POST_Method_to_return_correct_HTTP_Status_Code_and_Location_URI.md)
  - [Enhancing POST Method to return correct HTTP Status Code and Location URI](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Enhancing_POST_Method_to_return_correct_HTTP_Status_Code_and_Location_URI.md)
  - Implementing Exception Handling - 404 Resource Not Found
- - Implementing Generic Exception Handling for all Resources
+ - [Implementing Generic Exception Handling for all Resources](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Implementing_Generic_Exception_Handling_for_all_Resources.md)
  - Exercise : User Post Resource and Exception Handling
  - Implementing DELETE Method to delete a User Resource
  - Implementing Validations for RESTful Services
@@ -146,4 +146,14 @@
 }
 ```
 
+### GET http://localhost:8080/users/500
+- Get request to a non existing resource. 
+- The response shows a Customized Message Structure
+```json
+{
+    "timestamp": "2018-12-14T03:31:14.670+0000",
+    "message": "id-500",
+    "details": "uri=/users/500"
+}
+```
 
