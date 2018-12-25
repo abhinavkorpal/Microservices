@@ -13,8 +13,8 @@
  - [Implementing Generic Exception Handling for all Resources](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Implementing_Generic_Exception_Handling_for_all_Resources.md)
  - Exercise : User Post Resource and Exception Handling
  - [Implementing DELETE Method to delete a User Resource](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Implementing_DELETE_Method_to_delete_a_User_Resource.md)
- - Implementing Validations for RESTful Services
- - Implementing HATEOAS for RESTful Services
+ - [Implementing Validations for RESTful Services](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Implementing_Validations_for_RESTful_Services.md)
+ - [Implementing HATEOAS for RESTful Services](https://github.com/abhinavkorpal/microservices/blob/master/spring-microservices/Implementing_HATEOAS_for_RESTful_Services.md)
 
 ## Useful Links
 
