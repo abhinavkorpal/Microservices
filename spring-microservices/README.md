@@ -169,4 +169,25 @@
 - Create a posts for a User - POST /users/{id}/posts
 - Retrieve details of a post - GET /users/{id}/posts/{post_id}
 
+### POST http://localhost:8080/users with Validation Errors
+
+#### Request
+
+```json
+{
+    "name": "R",
+    "birthDate": "2000-07-19T04:29:24.054+0000"
+}
+```
+
+#### Response - 400 Bad Request
+
+```json
+{
+    "timestamp": "2017-07-19T09:00:27.912+0000",
+    "message": "Validation Failed",
+    "details": "org.springframework.validation.BeanPropertyBindingResult: 1 errors\nField error in object 'user' on field 'name': rejected value [R]; codes [Size.user.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.name,name]; arguments []; default message [name],2147483647,2]; default message [Name should have atleast 2 characters]"
+}
+```
+
 
